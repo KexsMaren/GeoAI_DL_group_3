@@ -1,0 +1,6 @@
+train: ../data/final_polygons.yolov11/train
+val: ../data/final_polygons.yolov11/valid
+
+nc: 1
+
+names: ["PV"]
