@@ -21,4 +21,4 @@ The [evaluation-folder](https://github.com/MarenHeinemann/GeoAI_DL_group_3/tree/
 
 
 
-# ToDo: Links (data), relative paths, figures, README
+# ToDo: figures, README (results)
