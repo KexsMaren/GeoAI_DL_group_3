@@ -6,7 +6,7 @@ Find our detailed paper [here](https://www.overleaf.com/project/677820b2950a3589
 
 ## Usage
 
-### 1. Training data
+### 1. Data
 The original orthophoto was downloaded from [LGL-BW](https://opengeodata.lgl-bw.de/#/(sidenav:product/2)) and preprocessed. Then, it was manually labeled using Roboflow, split into three parts (train: 80%, val: 10%, test: 10%) and downloaded in the yolov11-format. The final training dataset can be found [here](https://github.com/KexsMaren/GeoAI_DL_group_3/tree/main/data/final_polygons.yolov11).
 
 
