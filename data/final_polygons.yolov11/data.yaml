@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['PV']
+
+roboflow:
+  workspace: geoai-ly0kf
+  project: pv-640x640
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/geoai-ly0kf/pv-640x640/dataset/8
