@@ -5,6 +5,7 @@ Heidelberg using Deep Learning**.
 Find our detailed paper [here](https://www.overleaf.com/project/677820b2950a3589a06c9194).
 
 ![Workflow](figures/workflow.png)
+
 *Figure 1: Workflow*
 
 
@@ -27,4 +28,5 @@ The [evaluation-folder](https://github.com/KexsMaren/GeoAI_DL_group_3/tree/main/
 You can execute the trained model via the [predict.py](predict.py)-file. It outputs the following results:
 
 ![Predictions](figures/predictions.png)
+
 *Figure 2: Predictions on test dataset*
