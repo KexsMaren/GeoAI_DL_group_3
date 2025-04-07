@@ -4,6 +4,11 @@ This repository contains the code and dataset for **PV Panel Detection from High
 Heidelberg using Deep Learning**.
 Find our detailed paper [here](https://www.overleaf.com/project/677820b2950a3589a06c9194).
 
+![Workflow](figures/workflow.png)
+*Figure 1: Workflow*
+
+
+
 ## Usage
 
 ### 1. Data
@@ -11,14 +16,15 @@ The original orthophoto was downloaded from [LGL-BW](https://opengeodata.lgl-bw.
 
 
 ### 2. Training
-The [training-folder](https://github.com/KexsMaren/GeoAI_DL_group_3/tree/main/training) contains the python file used to train the model. Before running, check the paths in the train.yaml file.
+The [training-folder](https://github.com/KexsMaren/GeoAI_DL_group_3/tree/main/training) contains the [train.py](training/train.py)- file used to train the model. Before running, check the paths in the train.yaml file.
 
 
 ### 3. Evaluation
-The [evaluation-folder](https://github.com/KexsMaren/GeoAI_DL_group_3/tree/main/evaluation) contains the python file used to evaluate the model. Before running, check the paths in the eval.yaml file.
+The [evaluation-folder](https://github.com/KexsMaren/GeoAI_DL_group_3/tree/main/evaluation) contains the [eval.py](evaluation/eval.py)-file used to evaluate the model. Before running, check the paths in the eval.yaml file.
 
-## Results
+### 4. Results
 
+You can execute the trained model via the [predict.py](predict.py)-file. It outputs the following results:
 
-
-# ToDo: figures, README (results)
+![Predictions](figures/predictions.png)
+*Figure 2: Predictions on test dataset*
